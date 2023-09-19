@@ -1,0 +1,181 @@
+body {
+    background-color: #A83B37;
+}
+.text {
+    font-family: 'Montserrat', sans-serif;
+}
+.content {
+    background-color: #FFFAF2;
+}
+
+.nav-link {
+    font-size: 18px;
+    font-family: 'Krona One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #EBE3D6;
+}
+.nav-link:hover {
+  color: white;
+}
+.dropdown-menu {
+    background-color: #A83B37;
+}
+.dropdown-item:hover {
+    background: none;
+}
+.button:active {
+    border-color: #A83B37;
+    color: #EBE3D6;
+}
+.catalina-logo {
+    width: 180px;
+    height: 118px;
+}
+.catalina_svg {
+    fill:#EBE3D6;
+}
+.catalina_svg:hover {
+    fill: white;
+}
+.headerCatalina {
+    font-family: 'Krona One', sans-serif;
+    font-weight: bold;
+    color: #2B2B2B;
+    font-size: 40px;
+}
+.coffee-quotes{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.link {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #2B2B2B;
+}
+.link:hover{
+    color: #A83B37;
+}
+
+.text-discovermenu {
+    text-align: end;
+}
+.catalina-box {
+    background-color: #FFFAF2;
+    position: absolute;
+}
+
+.main-page-section {
+    position: relative; 
+}
+.reviews {
+    background-color: #2B2B2B
+}
+.reviews-text {
+    color: #EBE3D6;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-text {
+    color:#EBE3D6;
+    font-family: 'Krona One', sans-serif;
+    font-size: 12px;
+}
+
+.offcanvas-lg {
+    background-color: #A83B37;
+}
+.menu-black-board {
+    background-color: #2B2B2B;
+}
+
+.text-menu {
+    font-family: 'Allura', cursive;
+    color: #EBE3D6;
+    font-size: 40px;
+}
+
+.store-item {
+    border: #E2D6C1 solid 1px;
+}
+
+.store-item:hover {
+    border: #E2D6C1 solid 1px;
+    background-color: white;
+}
+.catalina-btn {
+    background-color: #A83B37;
+    color: white;
+}
+.catalina-btn:hover {
+    border: #A83B37 solid 2px;
+    background-color: white;
+    color: #A83B37;
+    font-weight: bolder;
+}
+
+.accordion-buttonCatalina:active {
+    color: #2B2B2B;
+    background: none;
+    border: none; 
+}
+
+.accordion-body {
+    border-color:#A83B37
+}
+.accordion-text {
+    font-family: 'Krona One', sans-serif;
+    font-size: 12px
+}
+
+@media all and (max-width: 1100px) {
+    .text-menu {
+        font-size: 24px;
+    }
+}
+
+@media all and (max-width: 768px) {
+  
+    .catalina-logo {
+        width: 152px;
+        height: 90px;
+    }
+    
+    .text {
+      font-size: 12px
+    }
+    .main-page-section {
+        position: static; 
+    }
+   
+    .footer-text {
+        font-size: 10px
+    }
+  
+    .headerCatalina {
+        font-size: 22px;
+    }
+    .text-menu {
+        font-family: 'Allura', cursive;
+        color: #EBE3D6;
+    }
+  .store-item {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+    }
+    
+    .store-item:hover {
+        border-left: none;
+        border-right: none;
+        background-color: #FFFAF2;
+    }
+}
+@media all and (max-width: 600px) {
+   .text-discovermenu {
+        text-align: start;
+    }
+  .catalina-box {
+        position: static;
+    }
